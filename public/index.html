@@ -1,0 +1,17 @@
+<html>
+  <head>
+    
+    <script>
+    var ws = new WebSocket("ws://marcoschwartz-node-ws-test.jit.su");
+
+    ws.onopen = function (event) {
+      ws.send('Some message');
+    };
+    
+    </script>
+
+  </head>
+  <body>
+  Just some stuff.
+  </body>
+</html>
